@@ -5,7 +5,7 @@
 
 ### 自定义规则说明
 自定义规则可以灵活的配置各种应用（暂不支持配置系统应用），有三种指令，指令中allow ask deny分别是允许、询问、拒绝  
-规则模板1：allow &nbsp;包名A &nbsp;包名B &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;允许应用A启动应用B，不会弹出启动对话框  
+规则模板1：allow &nbsp;包名A &nbsp;&nbsp;包名B &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;允许应用A启动应用B，不会弹出启动对话框  
 规则模板2：deny &nbsp;包名C &nbsp;A:活动D &nbsp;&nbsp;&nbsp;拒绝应用C启动应用活动D，不会弹出启动对话框  
 更多高级规则模板请打开应用查看注释  
 
