@@ -9,5 +9,7 @@
 规则模板2：deny &nbsp;包名C &nbsp;A:活动D &nbsp;&nbsp;&nbsp;拒绝应用C启动应用活动D，不会弹出启动对话框  
 更多高级规则模板请打开应用查看注释  
 
+- 图标建议计划 如果你有好的图标设计建议，您可提一个[Issue建议](https://github.com/Xposed-Modules-Repo/com.alphi.actvityopenmanager/issues)，图标前提要求是前景（矢量图标）与背景分离。
+
 |![pic_20240730011109](https://github.com/user-attachments/assets/6c49a861-8faf-4fa7-be59-cddabc0d941c)|![7c87e62ca148b140ae3f56107d7f6b2](https://github.com/user-attachments/assets/4b4cf852-9732-48f3-b637-190baff93d46)|
 |:---:|:---:|
