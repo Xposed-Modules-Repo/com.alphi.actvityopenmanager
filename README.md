@@ -5,8 +5,8 @@
 
 ### 自定义规则说明
 自定义规则可以灵活的配置各种应用（暂不支持配置系统应用），有三种指令，指令中allow ask deny分别是允许、询问、拒绝  
-规则模板1：allow &nbsp;包名A &nbsp;&nbsp;包名B &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;允许应用A启动应用B，不会弹出启动对话框  
-规则模板2：deny &nbsp;包名C &nbsp;A:活动D &nbsp;&nbsp;&nbsp;拒绝应用C启动应用活动D，不会弹出启动对话框（注意Activity活动名前面要加`A:`）  
+规则模板1：`allow  包名A  包名B` &nbsp;允许应用A启动应用B，不会弹出启动对话框  
+规则模板2：`deny  包名C  A:活动D`&nbsp;拒绝应用C启动应用活动D，不会弹出启动对话框（注意Activity活动名前面要加`A:`）  
 更多高级规则模板请打开应用查看注释  
 
 - 图标计划 如果你有好的图标设计建议，您可提一个[Issue建议](https://github.com/Xposed-Modules-Repo/com.alphi.actvityopenmanager/issues)，图标前提要求是前景（矢量图标）与背景分离。
