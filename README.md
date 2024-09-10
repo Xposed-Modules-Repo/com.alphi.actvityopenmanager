@@ -11,5 +11,9 @@
 
 - 图标计划 如果你有好的图标设计建议，您可提一个[Issue建议](https://github.com/Xposed-Modules-Repo/com.alphi.actvityopenmanager/issues)，图标前提要求是前景（矢量图标）与背景分离。
 
-|![pic_20240730011109](https://github.com/user-attachments/assets/6c49a861-8faf-4fa7-be59-cddabc0d941c)|![7c87e62ca148b140ae3f56107d7f6b2](https://github.com/user-attachments/assets/4b4cf852-9732-48f3-b637-190baff93d46)|
+#### 新的后台自启拦截设置
+自1.06(7)版本开始，为了解决部分应用采用特殊方式启动app，我们不得不废除废弃旧的复杂多链式`A:{**}`拦截功能，并替换为后台拦截启动功能，新引入的后台拦截启动功能能够更有效的拦截应用后台自启Activity，语法也更简单。  
+- 新的后台自启拦截模板语法: `ask -b * A:活动名`
+
+|![pic_20240730011109](https://github.com/user-attachments/assets/6c49a861-8faf-4fa7-be59-cddabc0d941c)|![Screenshot_20240910_Activity链式启动管理](https://github.com/user-attachments/assets/b040fc11-623b-45c0-b100-cfa8b7e07c7d)|
 |:---:|:---:|
